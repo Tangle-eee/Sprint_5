@@ -1,0 +1,37 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === pipenv/venv/virtualenv ===
+venv/
+env/
+ENV/
+.venv/
+
+# === pytest ===
+.pytest_cache/
+
+# === IDEs ===
+.vscode/
+.idea/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Logs and reports ===
+*.log
+*.xml
+*.html
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+# === Selenium / ChromeDriver logs (если есть) ===
+chromedriver.log
+
+# === Coverage ===
+htmlcov/
+.coverage
+coverage.xml
