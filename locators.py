@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 BUTTON_LOGIN_REGISTRATION = (By.XPATH, "//button[text()='Вход и регистрация']")
 BUTTON_LOGOUT = (By.XPATH, "//button[text()='Выйти']")
 TEXT_USER_NAME = (By.XPATH, "//h3[normalize-space(text())='User.']")
-AVATAR_BUTTON = (By.XPATH, "/html/body/div/div/div[1]/div/div[1]/button")
+AVATAR_BUTTON = (By.XPATH, "//button[.//svg]")
 
 # Модальное окно логина/регистрации
 LINK_NO_ACCOUNT = (By.XPATH, "//button[text()='Нет аккаунта']")
